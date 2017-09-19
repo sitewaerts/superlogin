@@ -1,6 +1,6 @@
 {
-  "name": "superlogin",
-  "version": "0.6.1",
+  "name": "@sensu/superlogin",
+  "version": "1.0.0",
   "description": "Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
   "main": "./lib/index.js",
   "repository": {
@@ -27,6 +27,13 @@
     "Express"
   ],
   "author": "Colin Skow",
+  "contributors": [
+    {
+      "name": "Bjorn Stromberg",
+      "email": "bjorn@bjornstar.com",
+      "url": "http://bjornstar.com/about"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/colinskow/superlogin/issues"
@@ -34,7 +41,7 @@
   "homepage": "https://github.com/colinskow/superlogin",
   "dependencies": {
     "bluebird": "^3.3.4",
-    "couch-pwd": "github:zeMirco/couch-pwd",
+    "@sensu/couch-pwd": "^1.0.0",
     "ejs": "^2.3.1",
     "express": "^4.13.3",
     "extend": "^3.0.0",
@@ -54,16 +61,16 @@
   },
   "devDependencies": {
     "body-parser": "^1.9.2",
-    "chai": "^3.5.0",
+    "chai": "^4.1.2",
     "gulp": "^3.8.6",
     "gulp-jshint": "^2.0.0",
-    "gulp-mocha": "^2.2.0",
+    "gulp-mocha": "^4.3.1",
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.1.0",
-    "mocha": "^2.4.5",
+    "mocha": "^3.5.3",
     "morgan": "^1.5.2",
     "rimraf": "^2.5.2",
-    "sinon": "^1.17.4",
+    "sinon": "^3.3.0",
     "sinon-chai": "^2.8.0"
   }
 }
