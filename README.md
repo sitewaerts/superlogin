@@ -1,6 +1,6 @@
-# SuperLogin
+# @sensu/superlogin [![Build Status](https://travis-ci.org/sen-su/superlogin.png?branch=master)](https://travis-ci.org/sen-su/superlogin)
 
-[![Build Status](https://travis-ci.org/colinskow/superlogin.png?branch=master)](https://travis-ci.org/colinskow/superlogin)
+## An up-to-date version of superlogin that is actually published.
 
 SuperLogin is a full-featured NodeJS/Express user authentication solution for APIs and Single Page Apps (SPA) using CouchDB or Cloudant.
 

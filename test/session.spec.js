@@ -44,14 +44,11 @@ describe('Session', function() {
 });
 
 function runTest(config, adapter) {
-
   var session = new Session(config);
   var previous;
 
   return new BPromise(function(resolve, reject) {
-
     describe(adapter, function() {
-
       it('should store a token', function(done) {
         previous = session.storeToken(testToken)
           .then(function() {
@@ -122,8 +119,6 @@ function runTest(config, adapter) {
             });
         });
       });
-
     });
   });
-
 }
