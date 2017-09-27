@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## v1.1.0 - 2017-09-27
+* Update `fs-extra` from `^0.3.0` to `^4.0.2`
+* Update `nodemailer` from `^2.3.0` to `^4.1.1`
+* Update `superagent` from `^1.2.0` to `^3.6.0`
+* Remove `gulp`, `gulp-mocha`, `gulp-jshint`
+* Improve linting
+* Drop support for node 4
+* Whitespace cleanup
+* Do not cache node modules
+* Remove cloudant test
+* Do not publish `test` directory or `.travis.yml` or `.jshintrc` to npm
+
 ## v1.0.0 - 2017-09-19
 * Updated CHANGELOG formatting
 * Change couch-pwd to @sensu/couch-pwd
