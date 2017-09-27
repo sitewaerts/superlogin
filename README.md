@@ -261,7 +261,7 @@ It's easy to add custom fields to user documents. When added to a `profile` fiel
 2. Include the fields with [registrations](#post-register).
 3. To also fill in custom fields after social authentications use the [superlogin.onCreate](#superloginoncreatefn) handler. Example:
 
-   ``` js 
+   ``` js
    superlogin.onCreate(function(userDoc, provider) {
      if(userDoc.profile === undefined) {
        userDoc.profile = {};
@@ -297,7 +297,7 @@ This link is included in the confirmation email, and will mark the user as confi
 
 ##### `POST /refresh`
 Authentication token required. Extends the life of your current token and returns updated token information. The only field that will change is `expires`. Token life is configurable under `security.sessionLife` and is measured in seconds.
- 
+
 ##### `POST /logout`
 Authentication required. Logs out the current session and deauthorizes the token on all user databases.
 
@@ -308,7 +308,7 @@ Authentication required. Logs out and deauthorizes all user sessions except the 
 Authentication required. Logs out every session the user has open and deauthorizes the user completely on all databases.
 
 ##### `POST /forgot-password`
-Include `email` field to send the forgot password email containing a password reset token. The life of the token can be set under `security.tokenLife` (in seconds). 
+Include `email` field to send the forgot password email containing a password reset token. The life of the token can be set under `security.tokenLife` (in seconds).
 
 Have the email template redirect back to you're app where you're app presents U.I. to gather a new password and then `POST` to `/password-reset` with the forgot-password `token` and new password
 
