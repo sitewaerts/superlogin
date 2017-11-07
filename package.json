@@ -1,11 +1,11 @@
 {
   "name": "@sensu/superlogin",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/colinskow/superlogin.git"
+    "url": "https://github.com/sen-su/superlogin.git"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -37,17 +37,17 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/colinskow/superlogin/issues"
+    "url": "https://github.com/sen-su/superlogin/issues"
   },
-  "homepage": "https://github.com/colinskow/superlogin",
+  "homepage": "https://github.com/sen-su/superlogin",
   "dependencies": {
     "@sensu/couch-pwd": "^1.0.0",
-    "bluebird": "^3.3.4",
+    "bluebird": "^3.5.1",
     "ejs": "^2.3.1",
-    "express": "^4.13.3",
+    "express": "^4.16.2",
     "extend": "^3.0.0",
     "fs-extra": "^4.0.2",
-    "nodemailer": "^4.1.1",
+    "nodemailer": "^4.3.1",
     "nodemailer-stub-transport": "^1.0.0",
     "passport": "^0.3.2",
     "passport-http-bearer-sl": "^1.0.1",
@@ -56,7 +56,7 @@
     "pouchdb-seed-design": "^0.2.0",
     "redis": "^2.5.2",
     "sofa-model": "^0.2.0",
-    "superagent": "^3.6.0",
+    "superagent": "^3.8.0",
     "urlsafe-base64": "1.0.0",
     "uuid": "^3.0.0"
   },
@@ -69,6 +69,6 @@
     "morgan": "^1.5.2",
     "rimraf": "^2.5.2",
     "sinon": "^3.3.0",
-    "sinon-chai": "^2.8.0"
+    "sinon-chai": "^2.14.0"
   }
 }

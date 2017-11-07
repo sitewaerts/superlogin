@@ -1,5 +1,28 @@
 # CHANGELOG
 
+## v1.2.0 - 2017-11-07
+
+### Dependencies
+* bluebird from `3.3.4` to `3.5.1`
+* express from `4.13.3` to `4.16.2`
+* nodemailer from `4.1.1` to `4.3.1`
+* superagent from `3.6.0` to `3.8.0`
+* sinon-chai from `2.8.0` to `2.14.0`
+* Ignore package-lock.json
+
+### Tests
+* `previous` usage as a promise anti-pattern, removed.
+* moved `require` calls to the top
+* Always test `err` in callbacks
+* `before` should not include a promise in `onCreate`
+* Missed returning a promise in user spec: `bulkDocs`
+
+### CI
+* Test node 9
+
+### package.json
+* Point to this repo for this fork
+
 ## v1.1.0 - 2017-09-27
 * Update `fs-extra` from `^0.3.0` to `^4.0.2`
 * Update `nodemailer` from `^2.3.0` to `^4.1.1`
