@@ -1,6 +1,6 @@
 {
   "name": "@sensu/superlogin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
   "main": "./lib/index.js",
   "repository": {

@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## v1.2.1 - 2018-05-07
+
+### Dependencies
+* fs-extra from `4.0.3` to `6.0.0`
+* mocha from `3.5.3` to `5.1.1`
+* passport from ` 0.3.2` to `0.4.0`
+* pouchdb from `6.3.4` to `6.4.3`
+* pouchdb-seed-design from `0.2.2` to `0.3.0`
+* sinon from `3.3.0` to `5.0.4`
+* sinon-chai from `2.14.0` to `3.0.0`
+
+### Fixes
+* Send a 400 with a JSON object when registration fails.
+
+
 ## v1.2.0 - 2017-11-07
 
 ### Dependencies
