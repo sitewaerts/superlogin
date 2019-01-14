@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/colinskow/superlogin.png?branch=master)](https://travis-ci.org/colinskow/superlogin)
 
+
+## An up-to-date version of superlogin that is actually published. Includes the fixes from https://github.com/sen-su/superlogin
+
 SuperLogin is a full-featured NodeJS/Express user authentication solution for APIs and Single Page Apps (SPA) using CouchDB or Cloudant.
 
 User authentication is often the hardest part of building any web app, especially if you want to integrate multiple providers. Now all the tough work has been done for you so you can relax and create with less boilerplate!

@@ -1,11 +1,11 @@
 {
-  "name": "superlogin",
-  "version": "0.6.1",
+  "name": "@sitewaerts/superlogin",
+  "version": "0.7.0",
   "description": "Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/colinskow/superlogin.git"
+    "url": "https://github.com/sitewaerts/superlogin.git"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -28,10 +28,11 @@
   ],
   "author": "Colin Skow",
   "license": "MIT",
+  "access": "public",
   "bugs": {
-    "url": "https://github.com/colinskow/superlogin/issues"
+    "url": "https://github.com/sitewaerts/superlogin/issues"
   },
-  "homepage": "https://github.com/colinskow/superlogin",
+  "homepage": "https://github.com/sitewaerts/superlogin",
   "dependencies": {
     "bluebird": "^3.3.4",
     "couch-pwd": "github:zeMirco/couch-pwd",
