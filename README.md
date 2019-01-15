@@ -408,6 +408,10 @@ A PouchDB instance that gives direct access to the SuperLogin users database
 ##### `superlogin.couchAuthDB`
 A PouchDB instance that gives direct access to the CouchDB authentication (`_users`) database. (Not used with Cloudant.)
 
+##### `superlogin.initialized()`
+A Promise that is resolved when all setup code is successfully executed. You may use this to avoid concurrent 
+database access issues, when executing multiple instances of SuperLogin on a single database. 
+
 ##### `superlogin.registerProvider(provider, configFunction)`
 Adds support for additional Passport strategies. See below under Adding Providers for more information.
 
