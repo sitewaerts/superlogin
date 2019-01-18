@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## v2.0.0 - 2019-01-16
+
+### Dependencies
+* mocha from `5.1.1` to `5.2.0`
+* sinon from `5.0.4` to `7.2.2`
+
+### Features
+* superlogin.initialized()
+
+
+### Fixes
+* default http status code for error message in '/register'
+* generic error message in http response for '/validate-username/' and '/validate-email/'
+* delegate method invocations from routes via superlogin instance instead of user instance to allow effective patching of superlogin methods
+
 ## v1.2.1 - 2018-05-07
 
 ### Dependencies
