@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.0.1 - 2019-01-22
+
+### Fixes
+* fixed express error handler signature
+
 ## v2.0.0 - 2019-01-16
 
 ### Dependencies
