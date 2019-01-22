@@ -1,8 +1,5 @@
 # @sensu/superlogin [![Build Status](https://travis-ci.org/sen-su/superlogin.png?branch=master)](https://travis-ci.org/sen-su/superlogin)
 
-## An up-to-date version of superlogin that is actually published.
-
-
 ## An up-to-date version of superlogin that is actually published. Includes the fixes from https://github.com/sen-su/superlogin
 
 SuperLogin is a full-featured NodeJS/Express user authentication solution for APIs and Single Page Apps (SPA) using CouchDB or Cloudant.
@@ -519,4 +516,4 @@ Quits Redis if that is the session adapter you are using. This is useful for cle
 
 ## Releases
 
-Moved to [CHANGELOG.md](https://github.com/colinskow/superlogin/blob/master/CHANGELOG.md)
+Moved to [CHANGELOG.md](./CHANGELOG.md)
