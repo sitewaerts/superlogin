@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.0.2 - 2019-01-23
+
+### Fixes
+* clone design doc instance to enable multiple independent instances of superLogin
+
 ## v2.0.1 - 2019-01-22
 
 ### Fixes
