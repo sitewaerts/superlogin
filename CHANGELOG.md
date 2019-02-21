@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.0.3 - 2019-02-21
+
+### Fixes
+* avoid exceptions in user-design views 
+
 ## v2.0.2 - 2019-01-23
 
 ### Fixes
