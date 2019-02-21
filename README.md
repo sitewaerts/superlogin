@@ -203,17 +203,19 @@ You can add support for any Passport OAuth2 strategy to SuperLogin with just a f
 The first step is to add credentials to your config file. You can skip the callback URL as it will be generated automatically. Here is how to add support for Dropbox:
 
 ```json5
-providers: {
-  dropbox: {
-    // Credentials here will be passed in on the call to passport.use
-    credentials: {
-      consumerKey: DROPBOX_APP_KEY,
-      consumerSecret: DROPBOX_APP_SECRET
-    },
-    options: {
-      // Options here will be passed in on the call to passport.authenticate
+{
+    providers: {
+      dropbox: {
+        // Credentials here will be passed in on the call to passport.use
+        credentials: {
+          consumerKey: 'DROPBOX_APP_KEY',
+          consumerSecret: 'DROPBOX_APP_SECRET'
+        },
+        options: {
+          // Options here will be passed in on the call to passport.authenticate
+        }
+      }
     }
-  }
 }
 ```
 
