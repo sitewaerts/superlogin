@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.0.6 - 2019-11-11
+
+### Fixes
+* better error messages
+* bugfix FileAdapter
+
 ## v2.0.3 - 2019-02-21
 
 ### Fixes
