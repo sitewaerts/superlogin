@@ -1,6 +1,6 @@
 {
   "name": "@sitewaerts/superlogin",
-  "version": "2.0.6",
+  "version": "2.0.8",
   "description": "Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
   "main": "./lib/index.js",
   "repository": {
@@ -54,6 +54,7 @@
     "pouchdb": "^6.3.4",
     "pouchdb-seed-design": "^0.2.2",
     "redis": "^2.5.2",
+    "sanitize-filename": "^1.6.3",
     "sofa-model": "^0.2.0",
     "superagent": "^3.8.0",
     "urlsafe-base64": "1.0.0",
@@ -62,12 +63,12 @@
   "devDependencies": {
     "body-parser": "^1.9.2",
     "chai": "^4.1.2",
-    "jshint": "^2.9.1",
+    "jshint": "^2.11.0",
     "jshint-stylish": "^2.1.0",
     "mocha": "^5.2.0",
     "morgan": "^1.5.2",
-    "rimraf": "^2.5.2",
-    "sinon": "^7.2.2",
+    "rimraf": "^2.7.1",
+    "sinon": "^7.5.0",
     "sinon-chai": "^2.14.0"
   }
 }
