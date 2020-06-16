@@ -1,6 +1,6 @@
 {
   "name": "@sitewaerts/superlogin",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
   "main": "./lib/index.js",
   "repository": {
