@@ -27,21 +27,13 @@
     "Express"
   ],
   "author": "Colin Skow",
-  "contributors": [
-    {
-      "name": "Bjorn Stromberg",
-      "email": "bjorn@bjornstar.com",
-      "url": "http://bjornstar.com/about"
-    }
-  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sitewaerts/superlogin/issues"
   },
   "homepage": "https://github.com/sitewaerts/superlogin",
   "dependencies": {
-    "@sensu/couch-pwd": "^1.0.0",
-    "bluebird": "^3.5.1",
+    "bluebird": "^3.3.4",
     "ejs": "^2.3.1",
     "express": "^4.16.2",
     "extend": "^3.0.0",
