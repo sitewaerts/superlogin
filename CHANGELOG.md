@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.0.11 - 2020-11-22
+
+### Fixes
+* sync roles from user to session when refreshing session
+
 ## v2.0.6 - 2019-11-11
 
 ### Fixes
