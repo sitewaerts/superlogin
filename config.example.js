@@ -128,6 +128,10 @@ module.exports = {
       admins: ['$slAdmin'],
       members: []
     },
+    deleteWithUser : {
+      private : false,
+      shared: false
+    },
     // These are settings for each personal database
     model: {
      // If your database is not listed below, these default settings will be applied
@@ -135,7 +139,7 @@ module.exports = {
         // Array containing name of the design doc files (omitting .js extension), in the directory configured below
         designDocs: ['mydesign'],
         // these permissions only work with the Cloudant API
-        permissions: ['_reader', '_replicator'],
+        permissions: ['_reader', '_replicator']
       },
       test: {
         designDocs: ['test'],

@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.0.12 - 2020-11-26
+
+### Fixes
+* change listener on sl-users triggers updates on sessions and authDb when roles are modified
+
 ## v2.0.11 - 2020-11-22
 
 ### Fixes
