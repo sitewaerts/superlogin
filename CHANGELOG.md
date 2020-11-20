@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.0.13 - 2020-11-20
+
+### Fixes
+* json (instead of plain text) response when session invalid 
+
 ## v2.0.12 - 2020-11-26
 
 ### Fixes
