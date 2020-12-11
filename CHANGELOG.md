@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.0.14 - 2020-12-11
+
+### Fixes
+* better error messages
++ sync session refresh to userDB
+
 ## v2.0.13 - 2020-11-20
 
 ### Fixes
