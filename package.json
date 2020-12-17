@@ -3,6 +3,9 @@
   "version": "2.0.14",
   "description": "Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
   "main": "./lib/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/sitewaerts"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/sitewaerts/superlogin.git"

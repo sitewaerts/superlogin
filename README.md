@@ -63,7 +63,7 @@ Here's a simple minimalist configuration that will get you up and running right 
 
 First:
 ```
-npm install superlogin
+npm install @sitewaerts/superlogin
 ```
 Then...
 
