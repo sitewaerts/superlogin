@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v2.0.15 - 2020-12-17
+
+### Fixes
+* avoid 409 on session cleanup/sync
+
 ## v2.0.14 - 2020-12-11
 
 ### Fixes
