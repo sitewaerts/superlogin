@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v2.0.16 - 2021-01-27
+
+* new route /profile
+
+### Fixes
+* bugfix when using email style username
+
 ## v2.0.15 - 2020-12-17
 
 ### Fixes
