@@ -54,7 +54,8 @@
     "sofa-model": "^0.2.0",
     "superagent": "^3.8.0",
     "urlsafe-base64": "1.0.0",
-    "uuid": "^3.0.0"
+    "uuid": "^3.0.0",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "body-parser": "^1.9.2",
