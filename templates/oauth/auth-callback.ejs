@@ -7,16 +7,18 @@
 </head>
 <body>
 <script type="text/javascript">
-    if (window.opener) {
+    var jsCallback = <%- JSON.stringify(jsCallback) %>;
+    if (window.opener && jsCallback) {
         window.opener.focus();
-        var session = <%- JSON.stringify(session) %>;
+        var auth = <%- JSON.stringify(auth) %>;
         var error = <%- JSON.stringify(error) %>;
         var link = <%- JSON.stringify(link) %>;
         if (window.opener.superlogin && window.opener.superlogin.oauthSession) {
-            window.opener.superlogin.oauthSession(error, session, link);
+            window.opener.superlogin.oauthSession(error, auth, link);
+            window.close();
         }
     }
-    window.close();
 </script>
+Successfully logged in. You may close this window and/or return to the app.
 </body>
 </html>

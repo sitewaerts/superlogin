@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.0.17 - 2021-02-17
+
+* optimized oAuth handling with new routes, channels, sessions, configurable callbacks, etc.
+
 ## v2.0.16 - 2021-01-27
 
 * new route /profile
