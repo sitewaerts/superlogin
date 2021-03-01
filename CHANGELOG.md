@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.0.21 - 2021-03-01
+
+* better error messages
+
 ## v2.0.20 - 2021-03-01
 
 * fixed typo in FileAdapter
