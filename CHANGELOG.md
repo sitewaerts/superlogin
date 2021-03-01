@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## v2.0.18 - 2021-03-01
+## v2.0.19 - 2021-03-01
 
 * fixed typo in FileAdapter
 
