@@ -2,6 +2,10 @@
 
 ## v2.0.18 - 2021-03-01
 
+* fixed typo in FileAdapter
+
+## v2.0.18 - 2021-03-01
+
 * optimized oAuth handling with new routes, channels, sessions, configurable callbacks, etc.
 
 ## v2.0.16 - 2021-01-27
