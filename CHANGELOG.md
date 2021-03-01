@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## v2.0.17 - 2021-02-17
+## v2.0.18 - 2021-03-01
 
 * optimized oAuth handling with new routes, channels, sessions, configurable callbacks, etc.
 
