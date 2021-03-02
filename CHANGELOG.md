@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.0.22 - 2021-03-02
+
+* bugfixes
+
 ## v2.0.21 - 2021-03-01
 
 * better error messages
