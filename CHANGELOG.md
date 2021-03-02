@@ -3,6 +3,7 @@
 ## v2.0.22 - 2021-03-02
 
 * bugfixes
+* better error messages
 
 ## v2.0.21 - 2021-03-01
 
