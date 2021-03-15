@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.0.25 - 2021-03-15
+
+* file adapter thread save bugfix
+
 ## v2.0.24 - 2021-03-15
 
 * pouchdb 7
