@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v2.0.24 - 2021-03-15
+
+* pouchdb 7
+* pouchdb-security-helper
+* file adapter thread save
+* oauth error handling
+* doc
+
 ## v2.0.23 - 2021-03-02
 
 * better error messages
