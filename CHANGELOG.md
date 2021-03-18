@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.0.28 - 2021-03-18
+
+* revert to 2.0.27
+
 ## v2.0.27 - 2021-03-18
 
 * better handle new sessions on first access
