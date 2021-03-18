@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.0.26 - 2021-03-15
+
+* bugfix in error handling (jsCallback is not defined)
+
 ## v2.0.25 - 2021-03-15
 
 * file adapter thread save bugfix
