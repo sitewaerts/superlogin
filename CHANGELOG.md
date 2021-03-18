@@ -1,6 +1,10 @@
 # CHANGELOG
 
-## v2.0.26 - 2021-03-15
+## v2.0.27 - 2021-03-18
+
+* better handle new sessions on first access
+
+## v2.0.26 - 2021-03-18
 
 * bugfix in error handling (jsCallback is not defined)
 
