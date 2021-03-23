@@ -1,35 +1,35 @@
 module.exports = {
   auth: {
     views: {
-      email: function(doc) {
+      email: {map: function(doc) {
         if(doc.email) {
           emit(doc.email, null);
         } else if(doc.unverifiedEmail && doc.unverifiedEmail.email) {
           emit(doc.unverifiedEmail.email, null);
         }
-      },
-      username: function(doc) {
+      }},
+      username: {map: function(doc) {
         emit(doc._id, null);
-      },
-      verifyEmail: function(doc) {
+      }},
+      verifyEmail: {map: function(doc) {
         if(doc.unverifiedEmail && doc.unverifiedEmail.token) {
           emit(doc.unverifiedEmail.token, null);
         }
-      },
-      emailUsername: function(doc) {
+      }},
+      emailUsername: {map: function(doc) {
         emit(doc._id, null);
         if(doc.email) {
           emit(doc.email, null);
         } else if(doc.unverifiedEmail && doc.unverifiedEmail.email) {
           emit(doc.unverifiedEmail.email, null);
         }
-      },
-      passwordReset: function(doc) {
+      }},
+      passwordReset: {map: function(doc) {
         if(doc.forgotPassword && doc.forgotPassword.token) {
           emit(doc.forgotPassword.token, null);
         }
-      },
-      session: function(doc) {
+      }},
+      session: {map: function(doc) {
         if(doc.session) {
           for(var key in doc.session) {
             if(doc.session.hasOwnProperty(key)) {
@@ -37,8 +37,8 @@ module.exports = {
             }
           }
         }
-      },
-      expiredKeys: function(doc) {
+      }},
+      expiredKeys: {map: function(doc) {
         if(doc.session) {
           for(var key in doc.session) {
             if(doc.session.hasOwnProperty(key) && doc.session[key].expires) {
@@ -46,7 +46,7 @@ module.exports = {
             }
           }
         }
-      }
+      }}
     }
   }
 };

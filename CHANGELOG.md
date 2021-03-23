@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v2.0.29 - 2021-03-23
+
+* bugfixes design docs
+* short one time passwords for email confirmation and password reset
+* error handling for expired sessions during refresh
+* better user name / email validation
+
 ## v2.0.28 - 2021-03-18
 
 * revert to 2.0.27
