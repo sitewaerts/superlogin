@@ -51,7 +51,8 @@ module.exports = {
         message: "must be at least 6 characters"
       },
       matches: 'confirmPassword'
-    }
+    },
+    defaultRoles: ['local-user'],
   },
   dbServer: {
     // The CouchDB compatible server where all your databases are stored on
@@ -175,7 +176,8 @@ module.exports = {
       },
       // This will pass in the user's auth token as a variable called 'state' when linking to this provider
       // Defaults to true for Google and LinkedIn, but you can enable it for other providers if needed
-      stateRequired: false
+      stateRequired: false,
+      defaultRoles: ['facebook-user'],
     }
   },
   // Anything here will be merged with the userModel that validates your local sign-up form.

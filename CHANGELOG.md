@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.0.30 - 2021-03-25
+
+* dedicated default roles config for social auth providers and local registration 
+
 ## v2.0.29 - 2021-03-23
 
 * bugfixes design docs
@@ -9,7 +13,7 @@
 
 ## v2.0.28 - 2021-03-18
 
-* revert to 2.0.27
+* revert to 2.0.27 (had no effect)
 
 ## v2.0.27 - 2021-03-18
 
