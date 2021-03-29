@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.0.31 - 2021-03-29
+
+* cleanup arrays 
+
 ## v2.0.30 - 2021-03-25
 
 * dedicated default roles config for social auth providers and local registration 
