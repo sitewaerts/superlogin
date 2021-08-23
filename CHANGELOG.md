@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.1.0 - 2021-08-23
+
+* bumped dependency versions 
+
 ## v2.0.31 - 2021-03-29
 
 * cleanup arrays 
