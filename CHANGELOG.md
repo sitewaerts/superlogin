@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.1.1 - 2021-08-26
+
+* handle concurrency issues on login and refresh 
+
 ## v2.1.0 - 2021-08-23
 
 * bumped dependency versions 
