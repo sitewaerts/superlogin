@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.1.2 - 2021-09-01
+
+* actively close pouchdb instances when no longer needed 
+
 ## v2.1.1 - 2021-08-26
 
 * handle concurrency issues on login and refresh 
