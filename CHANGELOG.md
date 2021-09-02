@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.1.3 - 2021-09-02
+
+* logging for pouch db instance observation 
+
 ## v2.1.2 - 2021-09-01
 
 * actively close pouchdb instances when no longer needed 
