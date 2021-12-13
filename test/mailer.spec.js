@@ -1,11 +1,11 @@
 'use strict';
-var path = require('path');
-var expect = require('chai').expect;
+const path = require('path');
+const expect = require('chai').expect;
 
-var Configure = require('../lib/configure');
-var Mailer = require('../lib/mailer');
+const Configure = require('../lib/configure');
+const Mailer = require('../lib/mailer');
 
-var mailerTestConfig = new Configure({
+const mailerTestConfig = new Configure({
   testMode: {
     noEmail: true
   },
@@ -21,21 +21,21 @@ var mailerTestConfig = new Configure({
   }
 });
 
-var req = {
+const req = {
   protocol: 'https',
   headers: {
     host: 'example.com'
   }
 };
 
-var theUser = {
+const theUser = {
   name: 'Super',
   unverifiedEmail: {
     token: 'abc123'
   }
 };
 
-var mailer = new Mailer(mailerTestConfig);
+const mailer = new Mailer(mailerTestConfig);
 
 describe('Mailer', function() {
   it('should send a confirmation email', function() {

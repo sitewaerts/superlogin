@@ -1,4 +1,4 @@
-var path = require('path');
+const path = require('path');
 
 // These are the default settings that will be used if you don't override them in your config
 module.exports = {

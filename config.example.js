@@ -75,13 +75,14 @@ module.exports = {
     // 'redis' or 'memory'
     adapter: 'redis',
     redis: {
+      // https://github.com/redis/node-redis/blob/HEAD/docs/client-configuration.md
       // If url is supplied, port and host will be ignored
       url: 'redis://user:pass@host:port',
-      port: 6379,
-      host: 'localhost',
-      // If a UNIX domain socket is specified, port, host and url will be ignored
-      unix_socket: '/tmp/echo.sock',
-      options: {},
+      socket: {
+        port: 6379,
+        host: 'localhost'
+      },
+      username: 'redisuser',
       password: process.env.REDIS_PASSWORD
     }
   },

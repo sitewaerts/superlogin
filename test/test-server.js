@@ -1,14 +1,14 @@
 'use strict';
-var express = require('express');
-var http = require('http');
-var bodyParser = require('body-parser');
-var morgan = require('morgan');
+const express = require('express');
+const http = require('http');
+const bodyParser = require('body-parser');
+const morgan = require('morgan');
 
-var SuperLogin = require('../lib/index');
+const SuperLogin = require('../lib/index');
 
 function start(config) {
 
-  var app = express();
+  const app = express();
 
   // all environments
   app.set('port', process.env.PORT || config.port ||  5000);
@@ -17,7 +17,7 @@ function start(config) {
 
 
   // Initialize SuperLogin
-  var superlogin = new SuperLogin(config);
+  const superlogin = new SuperLogin(config);
   // Mount SuperLogin's routes to our app
   app.use('/auth', superlogin.router);
 
@@ -31,7 +31,7 @@ function start(config) {
       res.send('role admin');
     });
 
-  var server = http.createServer(app).listen(app.get('port'));
+  const server = http.createServer(app).listen(app.get('port'));
 
   app.shutdown = function() {
     superlogin.quitRedis();

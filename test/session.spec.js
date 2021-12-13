@@ -1,11 +1,11 @@
 'use strict';
-var BPromise = require('bluebird');
-var expect = require('chai').expect;
-var Session = require('../lib/session');
-var Configure = require('../lib/configure');
-var rimraf = BPromise.promisify(require('rimraf'));
+const BPromise = require('bluebird');
+const expect = require('chai').expect;
+const Session = require('../lib/session');
+const Configure = require('../lib/configure');
+const rimraf = BPromise.promisify(require('rimraf'));
 
-var testToken = {
+const testToken = {
   _id: 'colinskow',
   roles: ['admin', 'user'],
   key: 'test123',
@@ -14,7 +14,7 @@ var testToken = {
   expires: Date.now() + 50000
 };
 
-var config = new Configure({
+const config = new Configure({
   session: {
     adapter: 'memory'
   }

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.1 - 2021-12-13
+
+* dependencies updates/upgrades 
+
 ## v2.1.3 - 2021-09-02
 
 * logging for pouch db instance observation 
