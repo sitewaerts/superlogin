@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.2 - 2022-01-13
+
+* added missing dependency @node-redis/bloom for redis 
+
 ## v2.2.1 - 2021-12-13
 
 * dependencies updates/upgrades 
