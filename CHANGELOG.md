@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.3 - 2022-01-13
+
+* bugfix generate password
+
 ## v2.2.2 - 2022-01-13
 
 * added missing dependency @node-redis/bloom for redis 
