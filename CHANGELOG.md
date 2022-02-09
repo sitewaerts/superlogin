@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.4 - 2022-02-09
+
+* add replyTo header to emails
+
 ## v2.2.3 - 2022-01-13
 
 * bugfix generate password
