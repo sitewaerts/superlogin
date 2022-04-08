@@ -13,9 +13,15 @@
         var auth = <%- JSON.stringify(auth) %>;
         var error = <%- JSON.stringify(error) %>;
         var link = <%- JSON.stringify(link) %>;
-        if (window.opener.superlogin && window.opener.superlogin.oauthSession) {
+        if (window.opener && window.opener.superlogin && window.opener.superlogin.oauthSession) {
             window.opener.superlogin.oauthSession(error, auth, link);
-            window.close();
+            try
+            {
+                window.close();
+            } catch (e)
+            {
+                console.error('cannot close window', e);
+            }
         }
     }
 </script>
