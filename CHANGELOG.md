@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.12 - 2022-06-05
+
+* lang param for email templates
+
 ## v2.2.4 - 2022-02-09
 
 * add replyTo header to emails
