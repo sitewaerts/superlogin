@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## v2.2.12 - 2022-06-05
+## v2.2.13 - 2022-06-05
 
 * lang param for email templates
 
