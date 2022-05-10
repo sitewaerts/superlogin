@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.14 - 2022-10-05
+
+* optional redirect_uri on login
+
 ## v2.2.13 - 2022-06-05
 
 * lang param for email templates
