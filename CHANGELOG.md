@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.16 - 2022-19-05
+
+* reduced payload in login response
+
 ## v2.2.14 - 2022-10-05
 
 * optional redirect_uri on login
