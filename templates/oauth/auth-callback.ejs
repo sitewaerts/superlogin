@@ -6,15 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 </head>
 <body>
+<!--suppress ES6ConvertVarToLetConst -->
 <script type="text/javascript">
     var jsCallback = <%- JSON.stringify(jsCallback) %>;
-    if (window.opener && jsCallback) {
-        window.opener.focus();
+    var outer = window.opener;
+    if (outer && jsCallback) {
+        try
+        {
+            outer.focus();
+        } catch (e)
+        {
+            console.error("cannot focus outer window", e);
+        }
         var auth = <%- JSON.stringify(auth) %>;
         var error = <%- JSON.stringify(error) %>;
         var link = <%- JSON.stringify(link) %>;
-        if (window.opener && window.opener.superlogin && window.opener.superlogin.oauthSession) {
-            window.opener.superlogin.oauthSession(error, auth, link);
+
+        /**
+         *
+         * @param w
+         * @return {(error:*, auth:*, link:*)=>void}
+         */
+        function oauthSession(w){
+            // noinspection JSUnresolvedVariable
+            return (w && w.superlogin && w.superlogin.oauthSession) ? w.superlogin.oauthSession : null;
+        }
+
+        var handler = oauthSession(outer)
+        if (handler) {
+            // noinspection JSUnusedAssignment
+            handler(error, auth, link);
             try
             {
                 window.close();
