@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.18 - 2022-06-10
+
+* Replaced `node-extend` with `node.extend` due to https://github.com/advisories/GHSA-cg42-4wrc-gp47
+
 ## v2.2.17 - 2022-29-06
 
 * bugfix azure

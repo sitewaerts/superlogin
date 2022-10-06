@@ -529,3 +529,10 @@ Quits Redis if that is the session adapter you are using. This is useful for cle
 ## Releases
 
 Moved to [CHANGELOG.md](./CHANGELOG.md)
+
+
+## Notes
+
+### package.json overrides
+
+- Replaced `node-extend` with `node.extend` due to https://github.com/advisories/GHSA-cg42-4wrc-gp47
