@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.20 - 2023-11-20
+
+* oauth profile id to lower case
+
 ## v2.2.18 - 2022-06-10
 
 * Replaced `node-extend` with `node.extend` due to https://github.com/advisories/GHSA-cg42-4wrc-gp47
