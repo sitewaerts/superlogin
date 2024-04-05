@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.21 - 2024-04-05
+
+* bugfix: handle user:user_id role
+
 ## v2.2.20 - 2023-11-20
 
 * oauth profile id to lower case
