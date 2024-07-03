@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.22 - 2024-07-03
+
+* remove expired keys from couch auth db on startup and every 6 hours
+
 ## v2.2.21 - 2024-04-05
 
 * bugfix: handle user:user_id role

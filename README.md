@@ -33,7 +33,7 @@ For issues and feature requests visit the [issue tracker](https://github.com/col
 * Add any [Passport](http://passportjs.org) OAuth2 strategy with literally just a couple lines of code
 * Facebook, WindowsLive, Google, Github, and LinkedIn integration fully tested
 * Link multiple authentication strategies to the same account for user convenience
-* 100% cookie free, which means that [CSRF](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_\(CSRF\)_Prevention_Cheat_Sheet) attacks are impossible against your app
+* ~~100% cookie free, which means that [CSRF](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_\(CSRF\)_Prevention_Cheat_Sheet) attacks are impossible against your app~~
 * Fast and massively scalable with a Redis session store
 * Provides seamless token access to both your CouchDB server (or Cloudant) and your private API
 * Manages permissions on an unlimited number of private or shared user databases and seeds them with the correct design documents
