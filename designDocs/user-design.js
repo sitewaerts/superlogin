@@ -3,9 +3,9 @@ module.exports = {
     views: {
       email: {map: function(doc) {
         if(doc.email) {
-          emit(doc.email, null);
+          emit(doc.email.toLowerCase(), null);
         } else if(doc.unverifiedEmail && doc.unverifiedEmail.email) {
-          emit(doc.unverifiedEmail.email, null);
+          emit(doc.unverifiedEmail.email.toLowerCase(), null);
         }
       }},
       username: {map: function(doc) {
@@ -19,9 +19,9 @@ module.exports = {
       emailUsername: {map: function(doc) {
         emit(doc._id, null);
         if(doc.email) {
-          emit(doc.email, null);
+          emit(doc.email.toLowerCase(), null);
         } else if(doc.unverifiedEmail && doc.unverifiedEmail.email) {
-          emit(doc.unverifiedEmail.email, null);
+          emit(doc.unverifiedEmail.email.toLowerCase(), null);
         }
       }},
       passwordReset: {map: function(doc) {

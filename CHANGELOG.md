@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.23 - 2025-02-11
+
+* handle email addresses case insensitive
+
 ## v2.2.22 - 2024-07-03
 
 * remove expired keys from couch auth db on startup and every 6 hours
