@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.24 - 2025-05-05
+
+* allow cleverdox skin redirect uris
+
 ## v2.2.23 - 2025-02-11
 
 * handle email addresses case insensitive
