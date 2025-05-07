@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.25 - 2025-05-06
+
+* bugfix session cleanup
+
 ## v2.2.24 - 2025-05-05
 
 * allow cleverdox skin redirect uris
