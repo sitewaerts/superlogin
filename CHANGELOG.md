@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.26 - 2025-05-09
+
+* force session invalidation at client
+
 ## v2.2.25 - 2025-05-06
 
 * bugfix session cleanup
