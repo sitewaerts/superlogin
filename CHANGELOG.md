@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.27 - 2025-05-09
+
+* avoid NPE
+
 ## v2.2.26 - 2025-05-09
 
 * force session invalidation at client
