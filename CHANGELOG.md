@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.28 - 2028-02-03
+
+* removed level db dependency (indirect via pouchdb)
+
 ## v2.2.27 - 2025-05-09
 
 * avoid NPE
