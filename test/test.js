@@ -6,7 +6,7 @@ const sinon = require('sinon');
 const expect= chai.expect;
 chai.use(require('sinon-chai'));
 
-const PouchDB = require('pouchdb');
+const PouchDB = require('pouchdb-core');
 const seed = require('pouchdb-seed-design');
 
 const util = require('../lib/util.js');

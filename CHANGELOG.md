@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## v2.2.28 - 2028-02-03
+## v2.2.29 - 2028-02-03
 
 * removed level db dependency (indirect via pouchdb)
 

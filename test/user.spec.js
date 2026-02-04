@@ -1,7 +1,7 @@
 'use strict';
 const events = require('events');
 const path = require('path');
-const PouchDB = require('pouchdb');
+const PouchDB = require('pouchdb-core');
 const BPromise = require('bluebird');
 const chai = require('chai');
 const sinon = require('sinon');

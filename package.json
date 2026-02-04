@@ -1,6 +1,6 @@
 {
   "name": "@sitewaerts/superlogin",
-  "version": "2.2.28",
+  "version": "2.2.29",
   "description": "Powerful authentication for APIs and single page apps using the CouchDB ecosystem which supports a variety of providers.",
   "main": "./lib/index.js",
   "publishConfig": {
@@ -51,6 +51,7 @@
     "passport-local": "^1.0.0",
     "pouchdb-adapter-http": "^9.0.0",
     "pouchdb-core": "^9.0.0",
+    "pouchdb-mapreduce": "^9.0.0",
     "pouchdb-security-helper": "^2.1.2",
     "pouchdb-seed-design": "^0.3.0",
     "promise-sequential": "^1.1.1",
