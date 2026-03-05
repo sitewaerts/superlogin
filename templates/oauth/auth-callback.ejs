@@ -8,44 +8,63 @@
 <body>
 <!--suppress ES6ConvertVarToLetConst -->
 <script type="text/javascript">
-    var jsCallback = <%- JSON.stringify(jsCallback) %>;
-    var outer = window.opener;
-    if (outer && jsCallback) {
-        try
-        {
-            outer.focus();
-        } catch (e)
-        {
-            console.error("cannot focus outer window", e);
-        }
-        var auth = <%- JSON.stringify(auth) %>;
-        var error = <%- JSON.stringify(error) %>;
-        var link = <%- JSON.stringify(link) %>;
 
-        /**
-         *
-         * @param w
-         * @return {(error:*, auth:*, link:*)=>void}
-         */
-        function oauthSession(w){
-            // noinspection JSUnresolvedVariable
-            return (w && w.superlogin && w.superlogin.oauthSession) ? w.superlogin.oauthSession : null;
-        }
+    //debugger;
 
-        var handler = oauthSession(outer)
-        if (handler) {
-            // noinspection JSUnusedAssignment
-            handler(error, auth, link);
-            try
-            {
-                window.close();
-            } catch (e)
-            {
-                console.error('cannot close window', e);
+    // give browser time to set new origin and apply related policies
+    setTimeout(function(){
+        var jsCallback = <%- JSON.stringify(jsCallback) %>;
+        var outer = window.opener;
+        if (outer && jsCallback)
+            sendToOpener();
+
+        function sendToOpener(){
+
+            // opener will focus himself
+
+            var auth = <%- JSON.stringify(auth) %>;
+            var error = <%- JSON.stringify(error) %>;
+            var link = <%- JSON.stringify(link) %>;
+
+            var outerOrigin = outer.window.origin;
+
+            var _send = false;
+
+            function sendAuth() {
+                _send = true;
+                outer.postMessage({
+                    type: 'superlogin.oauthSession',
+                    success: true,
+                    session: {error: error, auth: auth, link: link}
+                }, outerOrigin);
             }
+
+            // If the user closes the popup manually
+            window.addEventListener('beforeunload', function(){
+                if(!_send)
+                    sendAuth();
+            });
+
+            sendAuth();
+
+            // opener will close this window, but you never know ...
+            setTimeout(function(){
+                try
+                {
+                    window.close();
+                } catch (e)
+                {
+                    console.error('cannot close window', e);
+                }
+
+            }, 1000);
         }
-    }
+
+
+    }, 200)
+
 </script>
-Login processed. You may close this window and/or return to the app.
+<p>Login processed. You may close this window and/or return to the app.</p>
+<!--TODO: add button te resend auth via postMessage -->
 </body>
 </html>
