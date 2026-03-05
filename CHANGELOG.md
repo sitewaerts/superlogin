@@ -1,6 +1,10 @@
 # CHANGELOG
 
-## v2.2.29 - 2028-02-03
+## v2.2.30 - 2026-03-05
+
+* use postMessage 
+
+## v2.2.29 - 2026-02-03
 
 * removed level db dependency (indirect via pouchdb)
 
