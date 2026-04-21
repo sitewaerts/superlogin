@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.31 - 2026-04-21
+
+* improved local login with response_type param
+
 ## v2.2.30 - 2026-03-05
 
 * use postMessage 
