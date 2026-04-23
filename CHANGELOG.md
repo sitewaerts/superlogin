@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.32 - 2026-04-23
+
+* dependencies update/upgrade 
+
 ## v2.2.31 - 2026-04-21
 
 * improved local login with response_type param
