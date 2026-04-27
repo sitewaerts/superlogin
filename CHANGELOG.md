@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v2.2.33 - 2026-04-27
+* local via OAuth
+
 ## v2.2.32 - 2026-04-23
 
 * dependencies update/upgrade 
