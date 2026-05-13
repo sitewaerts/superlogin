@@ -14,7 +14,7 @@
     // give browser time to set new origin and apply related policies
     setTimeout(function(){
         var jsCallback = <%- JSON.stringify(jsCallback) %>;
-        var outer = window.opener;
+        var outer = window.opener || window.parent;
         if (outer && jsCallback)
             sendToOpener();
 

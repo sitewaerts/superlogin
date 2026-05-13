@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v2.2.34 - 2026-05-13
+* bugfix in auth-callbackj.ejs
+
 ## v2.2.33 - 2026-04-27
 * local via OAuth
 
