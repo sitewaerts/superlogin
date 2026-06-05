@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v2.2.35 - 2026-06-05
+* trustedProviders
+
 ## v2.2.34 - 2026-05-13
 * bugfix in auth-callbackj.ejs
 
