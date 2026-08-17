@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ## v2.2.36 - 2026-08-17
-* bugfixes redirect uri validation
+* npm publish
 
 ## v2.2.35 - 2026-06-05
 * trustedProviders
