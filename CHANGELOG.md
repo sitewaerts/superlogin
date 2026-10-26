@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v2.2.37 - 2026-10-26
+* better logging on 404
+
 ## v2.2.36 - 2026-08-17
 * npm publish
 
