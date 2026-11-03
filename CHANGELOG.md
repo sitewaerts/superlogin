@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v2.2.38 - 2026-11-03
+* enhanced roles management
+* resolve roles via fbs
+
 ## v2.2.37 - 2026-10-26
 * better logging on 404
 
