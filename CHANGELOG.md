@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v2.2.39 - 2026-11-04
+* bugfix
+
 ## v2.2.38 - 2026-11-03
 * enhanced roles management
 * resolve roles via fbs
