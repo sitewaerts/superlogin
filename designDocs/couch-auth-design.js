@@ -7,6 +7,13 @@ module.exports = {
           if (doc.user_id)
             emit(doc.expires, {user: doc.user_id, date: new Date(doc.expires).toUTCString()})
         }
+      },
+      users_expiration: {
+        map: function (doc)
+        {
+          if (doc.user_id)
+            emit(doc.user_id, new Date(doc.expires).toUTCString())
+        }
       }
     }
   }
