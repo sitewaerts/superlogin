@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v2.2.40 - 2026-11-17
+* invalidate session when sessions dbauth document (in _users) is missing
+
 ## v2.2.39 - 2026-11-04
 * bugfix
 
